@@ -1,15 +1,15 @@
 /* Activate CSS rule below to check all containers */
-/* .topNav div, .intro, .intro h1, .intro img, .aboutMe, .aboutMe img, .aboutMeText {
+.topNav div, .intro, .intro h1, .intro img, .aboutMe, .aboutMe img, .aboutMeText, .projects {
   border: 2px black solid;
-} */
+}
 
-a {
+.topNav a {
   color: #DDA455;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16pt;
 }
 
-a:hover {
+.topNav a:hover {
   color: rgb(67, 67, 67);
   font-style: underline;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
