@@ -13,6 +13,8 @@ This webpage is the landing page for Adela Darmansyah's programming portfolio. B
 * Clone this repository.
 * Open index.html in your browser of choice.
 
+Or simply copy the following link into your web browser: https://ayohana.github.io/portfolio
+
 ## Known Bugs
 
 No known bugs at this time.
