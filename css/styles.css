@@ -6,6 +6,20 @@
   float:right;
 }
 
-img {
-  width: 50%;
+@media all and (min-width: 1000px) {
+  img {
+    width: 900px;
+  }
+}
+
+@media all and (max-width: 999px) {
+  img {
+    width: 700px;
+  }
+}
+
+@media all and (max-width: 699px) {
+  img {
+    width: 400px;
+  }
 }
