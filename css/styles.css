@@ -1,9 +1,20 @@
-.topnav-left {
+/* Activate CSS rule below to check container of top navigation bar */
+/* .topNav {
   border: 2px black solid;
+} */
+
+a {
+  color: #DDA455;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16pt;
 }
 
-.topnav-right {
-  border: 2px black solid;
+a:hover {
+  color: rgb(67, 67, 67);
+  font-style: underline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
 @media all and (min-width: 1000px) {
