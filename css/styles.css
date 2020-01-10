@@ -1,5 +1,5 @@
-/* Activate CSS rule below to check container of top navigation bar */
-/* .topNav {
+/* Activate CSS rule below to check all containers */
+/* .topNav, .intro, .introPic {
   border: 2px black solid;
 } */
 
@@ -17,20 +17,21 @@ a:hover {
   font-weight: bold;
 }
 
+.intro {
+  padding: 50px;
+  margin: 10px;
+}
+
 @media all and (min-width: 1000px) {
-  img {
-    width: 900px;
+  .introPic {
+    max-width: 80%;
+    margin: 25px;
   }
 }
 
-@media all and (max-width: 999px) {
-  img {
-    width: 700px;
-  }
-}
-
-@media all and (max-width: 699px) {
-  img {
-    width: 400px;
+@media all and (max-width: 700px) {
+  .introPic {
+    max-width: 100%;
+    margin: 10px;
   }
 }
