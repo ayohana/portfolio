@@ -1,9 +1,9 @@
-.topnav {
-  float:left;
+.topnav-left {
+  border: 2px black solid;
 }
 
 .topnav-right {
-  float:right;
+  border: 2px black solid;
 }
 
 @media all and (min-width: 1000px) {
