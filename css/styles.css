@@ -1,5 +1,5 @@
 /* Activate CSS rule below to check all containers */
-/* .topNav, .intro, .introPic, .aboutMe, .aboutMePic, .aboutMeText {
+/* .topNav div, .intro, .intro h1, .intro img, .aboutMe, .aboutMe img, .aboutMeText {
   border: 2px black solid;
 } */
 
@@ -17,13 +17,13 @@ a:hover {
   font-weight: bold;
 }
 
-.intro {
+.intro h1 {
   padding: 50px;
   margin: 10px;
 }
 
 @media all and (min-width: 701px) {
-  .introPic {
+  .intro img {
     max-width: 80%;
     margin: 25px;
   }
@@ -31,7 +31,7 @@ a:hover {
     margin: 25px;
     overflow: auto;
   }
-  .aboutMePic {
+  .aboutMe img {
     max-width: 40%;
     margin: 25px;
     border-radius: 5%;
@@ -43,7 +43,7 @@ a:hover {
 }
 
 @media all and (max-width: 700px) {
-  .introPic {
+  .intro img {
     max-width: 100%;
     margin: 10px;
   }
@@ -51,7 +51,7 @@ a:hover {
     margin: 10px;
     overflow: auto;
   }
-  .aboutMePic {
+  .aboutMe img {
     max-width: 90%;
     margin: 10px;
     border-radius: 5%;
