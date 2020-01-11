@@ -17,7 +17,7 @@ Or simply copy the following link into your web browser: https://ayohana.github.
 
 ## Known Bugs
 
-No known bugs at this time.
+> _Top Navigation Bar:_ when the viewport is extra small, the links of the top navigation bar are not aligned in the center.
 
 ## Support and contact details
 
