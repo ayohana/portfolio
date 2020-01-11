@@ -1,7 +1,7 @@
 /* Activate CSS rule below to check all containers */
-.topNav div, .intro, .intro h1, .intro img, .aboutMe, .aboutMe img, .aboutMeText, .projects {
+/* .topNav div, .intro, .intro h1, .intro img, .aboutMe, .aboutMe img, .aboutMeText, .projects {
   border: 2px black solid;
-}
+} */
 
 .topNav a {
   color: #DDA455;
@@ -22,6 +22,10 @@
   margin: 10px;
 }
 
+.projects h2 {
+  margin-bottom: 50px;
+}
+
 @media all and (min-width: 701px) {
   .intro img {
     max-width: 80%;
@@ -39,6 +43,13 @@
   }
   .aboutMeText {
     padding: 100px 25px 25px 25px;
+  }
+  .projects {
+    padding: 25px;
+    line-height: 200%;
+  }
+  .projects ul {
+    margin: 25px;
   }
 }
 
@@ -59,5 +70,12 @@
   }
   .aboutMeText {
     padding: 10px;
+  }
+  .projects {
+    padding: 10px;
+    line-height: 200%;
+  }
+  .projects ul {
+    margin: 10px;
   }
 }
